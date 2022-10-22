@@ -1,0 +1,163 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+}
+body {
+    font-family: var(--majorFont);
+    font-size: 1.6rem;
+    line-height: 1;
+}
+
+h1{
+    font-size: 4.8rem;
+}
+h2{
+    font-size: 4rem;
+    color: #FF7272;
+}
+h3{
+    font-size: 3.2rem;
+    color: #FFB5B5;
+}
+h4{
+    font-size: 2.4rem;
+    color: #FFB5B5;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    max-width: 100%;
+}
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1f2233;
+    color: white;
+}
+
+.tudo{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .menu__header{
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu .menu__list{
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+    gap: 1rem;
+}
+
+.title__div{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.title__profile{
+    width: 30%;
+    border-radius: 60%;
+}
+.title__container{
+    width: 70%;
+    order: -1;
+}
+
+.title__network{
+    display: flex;
+    gap: 2rem;
+}
+.title__network__item{
+    font-size: 2rem;
+    padding:.5rem;
+}
+.title__network__item a:hover{
+    color:#ea6358;
+}
+.about{
+    background-color: #25273e;
+}
+/* SKILS */
+
+.skills__title{
+    text-align: center;
+}
+.skills__line{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+}
+.skills__box{
+    flex-basis: 15%;
+    height: 10rem;
+    /* background-color:#ea6358 ; */
+    border:1px solid #ea6358;
+    border-radius: 1rem;
+    transition: .5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.skills__box:hover{
+    background-color: #ea6358;
+    transform: scale(1.1);
+}
+.skills__img, .skills__name{
+    text-align: center;
+}
+/* HOBIES */
+.hobbies__title{
+    text-align: center;
+}
+.hobbies__line{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.hobbies__box{
+    flex-basis: 15%;
+    height: 10rem;
+    /* background-color:#ea6358 ; */
+    border:1px solid #ea6358;
+    border-radius: 1rem;
+    transition: .5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.hobbies__img, .hobbies__name{
+    text-align: center;
+}
+.hobbies__box:hover{
+    background-color: #ea6358;
+    transform: scale(1.1);
+}
+
