@@ -48,16 +48,18 @@ body{
     color: white;
 }
 
-.tudo{
+.container{
     max-width: 1200px;
     width: 90%;
     margin: 0 auto;
+    /* position: relative; */
 }
 
 .menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #0606322b;
 }
 
 .menu .menu__header{
@@ -72,24 +74,61 @@ body{
     text-align: right;
     gap: 1rem;
 }
-
+.fondo{
+    
+    width: 100%;
+   
+    background-image: url(../img/david-schultz-SrewPUfo2c0-unsplash.jpg);
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.title{
+    /* background-image: url(../img/fondo-portfolio.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem; */
+    /* margin-bottom: 10rem; */
+}
 .title__div{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    flex-grow: 1;
-}
-.title__profile{
-    width: 30%;
-    border-radius: 60%;
 }
 .title__container{
-    width: 70%;
-    order: -1;
+    /* width: 100%; */
 }
+.title__profile{
+    width: 25%;
+    border-radius: 50%;
+}
+.title__div{
+    padding: 3rem 0;
+}
+@media (min-width: 768px) {
+    .title__div{
+        flex-direction: row;
+        align-items: center;
+        flex-grow: 1;
+    }
+ 
+    .title__container{
+        width: 70%;
+        order: -1;
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
+
 
 .title__network{
     display: flex;
-    gap: 2rem;
+    justify-content: space-around;
 }
 .title__network__item{
     font-size: 2rem;
@@ -107,15 +146,19 @@ body{
     text-align: center;
 }
 .skills__line{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
     color: white;
 }
+@media (min-width: 768px) {
+    .skills__line{
+        grid-template-columns: repeat(6,1fr);
+        
+    }
+}
 .skills__box{
-    flex-basis: 15%;
     height: 10rem;
-    /* background-color:#ea6358 ; */
     border:1px solid #ea6358;
     border-radius: 1rem;
     transition: .5s;
@@ -136,16 +179,20 @@ body{
     text-align: center;
 }
 .hobbies__line{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
     color: white;
+}
+@media (min-width: 768px) {
+    .hobbies__line{
+        grid-template-columns: repeat(6,1fr);
+        
+    }
 }
 
 .hobbies__box{
-    flex-basis: 15%;
     height: 10rem;
-    /* background-color:#ea6358 ; */
     border:1px solid #ea6358;
     border-radius: 1rem;
     transition: .5s;
@@ -161,3 +208,11 @@ body{
     transform: scale(1.1);
 }
 
+/* --------------------------- ACADEMIC --------------------------- */
+.academic__courses{
+    display: flex;
+    justify-content: space-between;
+}
+.academic__courses__box{
+    flex-basis: 30%;
+}
