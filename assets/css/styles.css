@@ -216,7 +216,32 @@ body{
 .academic__courses__box{
     flex-basis: 30%;
 }
+.experience__container__img{
+    overflow: hidden;
+}
+.experience__img{
 
+ transition: all .4s ease;
+ overflow: hidden
+}
+.experience__img:hover {
+    transform:scale(1.5) rotate(0deg); /*cuando nos posicionamos sobre la imagen con esta propiedad aumentamos su escala y ademas la giramos*/
+    
+}
+
+/* --------------------------- EXPERIENCE --------------------------- */
+.experience__box{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem auto;
+}
+.experience__box:nth-child(odd) .experience__info{
+    order: -1;
+}
+.experience__info{
+    margin-right: 0;
+}
 
 /* --------------------------- FORM --------------------------- */
 
@@ -270,3 +295,25 @@ body{
     color: #25273e;
     font-weight: 700;
 }
+
+/* .formcontato__img{
+
+}
+.formcontato__img:hover{
+    animation: cartel 1s 1;
+    transform-origin: top center;
+  }
+  @keyframes cartel{ 
+    20%{
+      transform: rotate(20deg)
+    }
+    40%{
+      transform: rotate(-15deg)
+    }
+    60%{
+      transform: rotate(10deg)
+    }
+    80%{
+      transform: rotate(-5deg)
+    }  
+  } */
