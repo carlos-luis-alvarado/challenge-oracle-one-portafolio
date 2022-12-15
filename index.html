@@ -13,9 +13,9 @@
 
 <body>
     <!-- Sección del Menú  -->
-    
+
     <div class="tudo">
-        
+
         <div class="fondo">
             <!-- <div class="fondo">
                 
@@ -23,27 +23,43 @@
             <section class="menu container">
                 <header class="menu__header">
                     <img src="assets/img/name-user-logo.png">
-                    <h3 class="menu__title">Carlos Alvarado</h3>
+                    <h3 class="menu__title">Alvarado</h3>
                 </header>
-                <nav>
+
+                <nav class="nav">
                     <ul class="menu__list">
                         <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
                         <li class="menu__list__item"><a href="#skills">Skills</a></li>
                         <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
                         <li class="menu__list__item"><a href="#formacion">Formación</a></li>
                         <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
-                        <li class="menu__list__item"><a href="#contacto">Contacto@fulana.com</a></li>
+                        <li class="menu__list__item"><span class="correo"><a
+                                    href="#contacto">alvaradocarlosluis97@gmail.com</a></span></li>
                     </ul>
                 </nav>
+                <nav class="nav-mobile" id="navegacion">
+                    <ul class="menu__list--mobile" id="nav-items">
+                        <li id="close" class="close"><a href="#"><img src="./assets/img/close.png" alt=""></a></li>
+                        <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
+                        <li class="menu__list__item"><a href="#skills">Skills</a></li>
+                        <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
+                        <li class="menu__list__item"><a href="#formacion">Formación</a></li>
+                        <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
+                        <li class="menu__list__item"><span class="correo"><a
+                                    href="#contacto">alvaradocarlosluis97@gmail.com</a></span></li>
+                    </ul>
+                </nav>
+                <img class="nav-img" src="./assets/img/lista.png" alt="">
             </section>
-    
+
             <!-- Sección del Header/Title/Hero -->
             <section class="title container">
                 <div class="title__div">
                     <img class="title__profile" src="assets/img/perfil.jpg">
                     <div class="title__container">
                         <h2 class="title__bio">Hola, mi nombre es Carlos Alvarado y construyo paginas web</h2>
-                        <h3 class="title__subsection">Soy de Jujuy-Argentina , estudiante de Ing. en Informatica y actualmente
+                        <h3 class="title__subsection">Soy de Jujuy-Argentina , estudiante de Ing. en Informatica y
+                            actualmente
                             estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
                         <ul class="title__network">
                             <!-- Pon los enlaces de tus redes sociales favoritas -->
@@ -81,19 +97,16 @@
                 </div>
             </section>
         </div>
-      
+
 
         <!-- Sección sobre mi -->
         <section class="about container" id="sobre-mi">
             <div class="about__container">
                 <h3 class="about__title">Sobre mi</h3>
-                <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit
-                    velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium.
-                    Suspendisse potenti. Ut semper sagittis ligula et lacinia. </p>
-                <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit
-                    velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium.
-                    Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas
-                    metus vitae, aliquet metus.</p>
+                <p class="about__paragraph">
+                    Hola! Mi nombre es Carlos soy de Argentina y actualmente me dedico a estudiar programación, especialmente me gusta mucho el desarrollo web y tengo conocimientos de HTML, CSS y JAVASCRIPT para la parte FrontEnd y para el BackEnd manejo Node.js,MySQL y Mongo,y gracias a Alura estoy profundizando mas en dichas tecnologias. A parte de lo que es la programacion, en mis tiempos libres me gusta jugar al futbol y salir a caminar para despejar la mente.
+                </p>
+                <p class="about__paragraph"></p>
                 <!-- Si quieres, pon tú firma acá! -->
                 <img src="assets\signature.png">
             </div>
@@ -202,7 +215,8 @@
                 <div class="academic__courses__box">
                     <ul class="academic__courses__list">
                         <!-- Pon el logotipo de la institución de formación -->
-                        <li class="academic__courses__item__img"><img src="https://picsum.photos/id/30/600/400" alt=""></li>
+                        <li class="academic__courses__item__img"><img src="https://picsum.photos/id/30/600/400" alt="">
+                        </li>
                         <li class="academic__courses__item__title">
                             <h4>Análisis de datos</h4>
                         </li>
@@ -214,24 +228,26 @@
                 <div class="academic__courses__box">
                     <ul class="academic__courses__list">
                         <!--Pon el logotipo de la institución de formación -->
-                        <li class="academic__courses__item__img"><img src="https://picsum.photos/id/1060/600/400" alt=""></li>
+                        <li class="academic__courses__item__img"><img src="./assets/img/alura.png"
+                                alt=""></li>
                         <li class="academic__courses__item__title">
-                            <h4>Formación en UX Design</h4>
+                            <h4>Bootcamp Node.js</h4>
                         </li>
                         <li class="academic__courses__item__subtitle">
-                            <p>2019 - Alura</p>
+                            <p>Digitalers - Telecom/Educacion IT</p>
                         </li>
                     </ul>
                 </div>
                 <div class="academic__courses__box">
                     <ul class="academic__courses__list">
                         <!-- Pon el logotipo de la institución de formación -->
-                        <li class="academic__courses__item__img"><img src="https://picsum.photos/id/42/600/400" alt=""></li>
+                        <li class="academic__courses__item__img"><img src="./assets/img/alura.png" alt="">
+                        </li>
                         <li class="academic__courses__item__title">
-                            <h4>Posgrado en diseño</h4>
+                            <h4>Front-End / Back-End Developer</h4>
                         </li>
                         <li class="academic__courses__item__subtitle">
-                            <p>En curso - UFRJ</p>
+                            <p>Oracle Next Education</p>
                         </li>
                     </ul>
                 </div>
@@ -244,9 +260,10 @@
             <div class="experience__box">
                 <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
                 <div class="experience__container__img">
-                    <img class="experience__img" src="https://picsum.photos/id/1081/600/400" alt="">
+                    <img class="experience__img" src="./assets/img/Rectangle.png" alt="">
                 </div>
-                <div class="experience__info" <h2 class="experience__title">Encriptador de texto</h2>
+                <div class="experience__info">
+                    <h2 class="experience__title">Encriptador de texto</h2>
                     <h3 class="experience__text">Challenge Alura Codificador </h3>
                     <div class="experience__description">
                         <!-- Pon el enlace del proyecto en Github o GithubPages -->
@@ -262,9 +279,10 @@
             <div class="experience__box">
                 <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
                 <div class="experience__container__img">
-                    <img class="experience__img" src="https://picsum.photos/id/1081/600/400" alt="">
+                    <img class="experience__img" src="./assets/img/Rectangle (1).png" alt="">
                 </div>
-                <div class="experience__info"> <h2 class="experience__title">Juego creado con HTML y JavaScript</h2>
+                <div class="experience__info">
+                    <h2 class="experience__title">Juego creado con HTML y JavaScript</h2>
                     <h3 class="experience__text">Challenge Oracle </h3>
                     <div class="experience__description">
                         <!-- Pon el enlace del proyecto en Github o GithubPages -->
@@ -277,75 +295,43 @@
                 </div>
             </div>
 
-            <div class="experience__box">
-                <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-                <div class="experience__container__img">
-                    <img class="experience__img" src="https://picsum.photos/id/1081/600/400" alt="">
+           
+            
+        </section>
+        <!-- Sección de Contacto -->
+        <section class="formcontato container" id="contacto">
+            <div class="formcontato__contacto">
+                <div class="formcontato--esquerda">
+                    <img class="formcontato__img" src="./assets/img/contacto.jpg" alt="">
                 </div>
-                <div class="experience__info"> <h2 class="experience__title">Encriptador de texto</h2>
-                    <h3 class="experience__text">Challenge Oracle </h3>
-                    <div class="experience__description">
-                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                        <span class="experience__repo"><a
-                                href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button
-                                    class="experiencia__botao--repo">Repositório</button></a></span>
-                        <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver
-                                    demo</button></a></span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="experience__box">
-                <div class="experience__container__img">
-                    <img class="experience__img" src="https://picsum.photos/id/1081/600/400" alt="">
-                </div>
-                <div class="experience__info"> <h2 class="experience__title">Juego creado con HTML, CSS y
-                    JavaScript</h2>
-                    <h3 class="experience__text">Challenge Oracle </h3>
-                    <div class="experience__description">
-                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                        <span class="experience__repo"><a
-                                href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button
-                                    class="experiencia__botao--repo">Repositório</button></a></span>
-                        <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver
-                                    demo</button></a></span>
-                    </div>
+                <div class="formcontato__text">
+                    <h2 class="formcontato__title">Contacto</h2>
+                    <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
+                    <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con
+                        usted lo antes posible. </h3>
+                    <form class="formcontato__form" name="form">
+                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
+                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
+                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
+                            placeholder="Mensaje"></textarea>
+                        <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                    </form>
                 </div>
             </div>
         </section>
-            <!-- Sección de Contacto -->
-            <section class="formcontato container" id="contacto">
-                <div class="formcontato__contacto">
-                    <div class="formcontato--esquerda">
-                        <img class="formcontato__img" src="https://picsum.photos/id/514/600/400" alt="">
-                    </div>
-                    <div class="formcontato__text">
-                        <h2 class="formcontato__title">Contacto</h2>
-                        <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
-                        <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con
-                            usted lo antes posible. </h3>
-                        <form class="formcontato__form" name="form">
-                            <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                            <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                            <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
-                            <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
-                                placeholder="Mensaje"></textarea>
-                            <button type="submit" class="formcontato__botao">Enviar mensaje</button>
-                        </form>
-                    </div>
-                </div>
-            </section>
 
-            <!-- Sección de Footer -->
-            <section class="footer">
-                <div class="footer__rodape">
-                    <p>Desarrollado por Fulana de Tal</p>
-                    <p>2022</p>
-                </div>
-            </section>
+        <!-- Sección de Footer -->
+        <section class="footer">
+            <div class="footer__rodape">
+                <p>Desarrollado por Carlos Alvarado</p>
+                <p>2022</p>
+            </div>
+        </section>
     </div>
     <!-- Script del documento JavaScript -->
-    <script src="validacion.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <!-- <script src="validacion.js"></script> -->
 
 </body>
 
