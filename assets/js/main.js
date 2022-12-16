@@ -63,7 +63,7 @@ const validar = (input) => {
         if (cadena.length < 3) {
             mensaje = mensajes[input.name].min;
         }
-        if(cadena.length>20){
+        if(cadena.length>50){
             mensaje = mensajes[input.name].max;
         }
         if(simbolos.includes(tecla.data)&&!ban){
